@@ -1,0 +1,99 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+header{
+   text-align: center;
+}
+#centraliza{
+    text-align: center;
+}
+
+
+.imagem{
+    max-width: 100%;
+}
+.documentos{
+text-align: left;
+padding-left: 3%;
+
+}
+body{
+  background-color: rgba(206, 230, 227, 0.466)  ;
+    
+}
+
+form{
+    border-radius: 15px;
+    background-color:#709add8f ;
+    margin: auto;
+    max-width: 930px;
+    padding-top: 60px;
+    display: block; 
+    box-shadow: 1px 13px 37px rgb(0 0 0 / 49%);
+    margin-bottom: 200PX;
+    }
+.opcao{
+
+    background-color: #e7d10c ;
+    text-align: center;
+    margin: auto;
+    max-width: 100%;
+    width: 875px;
+    height: 50px;
+    border-radius: 15PX;
+    border: 0 none;
+    outline: 0;
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: #333333;
+    
+}
+.tamanhoOpcao{
+    font-size: 20px;
+}
+.barra{
+   
+    margin: auto;
+    max-width: 100%;
+    width: 875px;
+    height: 35px;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    margin-bottom: 20px;
+    font-size: 16px; 
+}
+
+#titulo{
+    margin-bottom: 70px;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0054B7;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+}
+
+.data{
+    font-size: 16px;
+    height: 35px;
+    width: 193px;
+}
+button{
+    height: 50px;
+    width: 200px;
+    margin-left: 330px;
+    margin-top: 100px;
+  
+}
+
+footer{
+    text-align: center;
+}

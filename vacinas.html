@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="vacinas.css">
+</head>
+
+<body>
+
+  
+    <main>
+       
+        <h1 id="titulo" >AGENDE SUA VACINA</h1>
+
+        <form>
+            <div id="centraliza">
+                
+                    <select class="opcao" name="" id="">
+                        <option value="" class="tamanhoOpcao"> OPÇÕES DE VACINAS</option>
+                        <option  value="1" class="tamanhoOpcao">Covid<h3></h3></option>
+                        <option  value="2" class="tamanhoOpcao"><h3>Gripe</h3></option>
+                        <option  value="3" class="tamanhoOpcao"><h3>Febre amarela</h3></option>
+                        
+                    </select>
+                
+                
+                <div>
+                     <div class="documentos">
+                         <H3>CPF *</H3>
+                     </div>
+                    <input class="barra" type="text" name="" id="cpf" onkeyup="valorcpf()">
+                </div>
+                <div>
+                    <div class="documentos">
+                        <h3>Cartão do SUS *</h3>
+                    </div>
+                    <input class="barra" type="text" name="" id="cpf">
+                </div>
+                <div>
+                    <div class="documentos">
+                        <h3>Nome Completo *</h3>
+                    </div>
+                    <input  class="barra" type="text" name="" id="nome">
+                </div>
+                <div>
+                   <div class="documentos">
+                       <h3>Data de Nascimento *</h3>
+                   <input type="date" name="" id="" class="data" >
+                
+                 </div>
+                </div>
+                <div>
+                    <div class="documentos">
+                        <h3>Sexo *</h3>
+                    </div>
+                    <select class="barra" name="" id="sexo">
+                        <option value=""></option>
+                        <option  value="1"><h3>Masculino</h3></option>
+                        <option  value="2"><h3>Fêmino</h3></option>
+                        <option  value="3"><h3>Outro</h3></option>
+                    </select>
+                 </div>
+                
+                 <div>
+                    <div class="documentos">
+                        <h3>Telefone *</h3>
+                    </div>
+                    <input class="barra" type="tel" name="" id="tel">
+                 </div>
+                 <div>
+                    <div class="documentos">
+                        <h3>E-mail *</h3>
+                    </div>
+                    <input  class="barra" type="email" name="" id="email">
+                 </div>
+                 <div>
+                     <div class="documentos">
+                         <h3>SELECIONE LOCAL DE VACINAÇÃO *</h3>
+                     </div>
+                     <select class="barra" name="" id="local" >
+                        <option value=""></option>
+                
+                
+                
+                        <option value="Escola Municipal Eberson Santos de Meireles (Cecom Embriões)">escola tecnica jurandir bezerra lins
+                        </option>
+                
+                    </select>
+                 </div>
+                 <div>
+                     <div class="documentos">
+                         <h3>LOCAL DE VACINAÇÃO *</h3>
+                     </div>
+                 </div>
+                 <div class="documentos">
+                     <P><input type="checkbox" name="" class="lembrete">Estou ciente que deve ser apresentado, no ato da vacinação, comprovante de residência.</P>
+                     <P><input type="checkbox" name="" class="lembrete">Estou ciente que devo levar documentos pessoais no ato da vacinaçao, como RG, CPF e cartão SUS.</P>
+                      <p > <samp id="valor_cpf"></samp></p>
+                 </div>
+                <button onclick="clicar()" id="agendar">Agendar</button>
+            </div>
+     </form>
+
+    </main>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>

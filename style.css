@@ -9,39 +9,79 @@
   display: none;
 }
 
-.carousel-inner{
+
+#carrosel {
+
+  max-width: 80%;
+  margin: auto;
+  margin-bottom: 150px;
+
+}
+
+#painel {
+  background-image: linear-gradient(to right, #176880, #3b9ba2);
+  background-color: #5A84A8;
   width: 100%;
+  height: 550px;
+  position: absolute;
+}
+
+#sobrenos {
+  float: right;
+  width: 500px;
+
+}
+
+#sobrenos>h3 {
+  color: #3b9ba2;
+}
+
+#sobrenos>p {
+  text-align: left;
+  color: black;
+}
+
+#solucao {
+  width: 1700px;
+  margin: auto;
+}
+
+.carousel-inner {
+  width: 100%;
+
 }
 
 .headerCustom {
-  background-color: #0054B7;
-  box-shadow: -1px 2px 5px rgb(0 0 0 / 49%);
+  background-color: white;
+
 }
 
 .headerCustom>.nav>.nav-item>a {
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 
 .headerCustom>.nav>.nav-item>a:hover {
-  background-color: #2a79d2;
+
+  text-decoration: underline;
 }
 
 .nav {
   height: 75px;
   padding-top: 9px;
-  padding-right: 100px;
+  padding-right: 320px;
 }
 
 .nav-item {
+
   padding-left: 18px;
   font-size: 20px;
 
 }
 
 #logo {
-  margin-top: 2px;
-  margin-left: 100px;
-  width: 255px;
+  margin-top: 6px;
+  margin-left: 300px;
+  width: 160px;
   position: absolute;
 }
 
@@ -52,11 +92,12 @@ main {
 }
 
 #consultas {
+  position: relative;
   font-size: 50px;
   text-align: center;
   padding-top: 50px;
-  margin-bottom: 50PX;
-  color: #0054B7;
+  margin-bottom: 140PX;
+  color: white;
 }
 
 .card {
@@ -65,6 +106,11 @@ main {
   height: 400px;
   width: 280px;
 
+
+}
+
+.card-title {
+  font-size: 25px;
 }
 
 .card1 {
@@ -73,10 +119,11 @@ main {
 
 .card1:hover {
   text-decoration: underline;
+
 }
 
 h5 {
-
+  color: #4AA6E2;
   text-align: center;
   padding-top: 15px;
   padding-bottom: 30px;
@@ -91,30 +138,43 @@ p {
   margin-bottom: 10em;
 }
 
-.row>h1 {
-  color: #0054B7;
+
+#carouselExampleCaptions {
+  position: relative;
+  margin-bottom: 100px;
+  max-width: 1000px;
+  min-height: 500px;
 }
 
 .listinha {
+
+  background-image: linear-gradient(to right, #4AA6E2, #cf5c86, #9c648c);
   height: 8px;
-  background-color: #FFB900;
+  background-color: #5F7D02;
 }
 
 footer {
-  background-color: #0054B7;
+  height: 400px;
+  background-image: linear-gradient(to right, #3b8da2, #175a80);
 }
 
 #rodape {
   margin-bottom: 0px;
 }
 
-#h1rodape {
-  padding-top: 30px;
-  padding-bottom: 15px;
+#logorodape {
+
   text-align: center;
-  color: white;
+  margin: auto;
 
 }
+
+#logorodape>img {
+  margin-top: 0px;
+  width: 70px;
+  margin-bottom: 100px;
+}
+
 
 .col>h2 {
   font-size: 23px;
