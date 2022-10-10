@@ -55,6 +55,7 @@ margin: auto;
   margin-bottom: 150px;
 }
 
+
 .carousel-inner {
   width: 100%;
 }
@@ -177,12 +178,12 @@ footer {
 }
 
 .col>p {
-  color: #FFB900;
+  color: rgb(31, 28, 28);
   text-align: center;
 }
 
 .col>p>a {
-  color: #FFB900;
+  color: rgb(31, 28, 28);
   text-align: center;
 }
 

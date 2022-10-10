@@ -27,7 +27,7 @@ body{
 
 form{
     border-radius: 15px;
-    background-color:#709add8f ;
+    background-color:#3b92a27e ;
     margin: auto;
     max-width: 930px;
     padding-top: 60px;
@@ -36,8 +36,8 @@ form{
     margin-bottom: 200PX;
     }
 .opcao{
-
-    background-color: #e7d10c ;
+     
+    background-color:  #3b8da2 ;
     text-align: center;
     margin: auto;
     max-width: 100%;
@@ -48,7 +48,7 @@ form{
     outline: 0;
     margin-bottom: 20px;
     font-size: 25px;
-    color: #333333;
+    color: white;
     
 }
 .tamanhoOpcao{
@@ -73,7 +73,7 @@ form{
     text-align: center;
     font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
-    color: #0054B7;
+    color: #1e5fb3c5;
 }
 
 h3{
@@ -82,18 +82,24 @@ h3{
 }
 
 .data{
+    border: none;
     font-size: 16px;
     height: 35px;
     width: 193px;
 }
 button{
+    font-size: 18px;
+    color: white;
+    background-color:#3b8da2 ;
+    border: none;
+    border-radius: 15px;
     height: 50px;
     width: 200px;
-    margin-left: 330px;
-    margin-top: 100px;
-  
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
 }
+button:hover{
+    border: double;
+    border-color: white;
 
-footer{
-    text-align: center;
-}
