@@ -1,38 +1,37 @@
 <html lang="pt-br">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>+SAÚDE</title>
+<title>HOME +SAÚDE</title>
 <link rel="stylesheet" href="style.css">
 <link href="bootstrap.css" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="shortcut icon" href="imgs/1665007987988.png" type="image/x-icon">
+<link rel="shortcut icon" href="imgs/logo-pequena.png" type="image/x-icon">
 </head>
 
 <body>
-  <header class="site-header sticky-top py-1 headerCustom">
 
-
-    <img id="logo" src="imgs/1664997462724.png" alt="logo">
-
-    <ul class="nav justify-content-end">
-
-      <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="#">INÍCIO</a>
-      </li>
-
-      <li class="nav-item">
-        <a class="nav-link" href="#" id="servicos">SERVIÇOS</a>
-      </li>
-
-      <li class="nav-item">
-        <a class="nav-link" href="#">SOBRE</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">CONTATO</a>
-      </li>
-
-    </ul>
-  </header>
+  
+    <header class="site-header sticky-top py-1 headerCustom">
+      
+      <img id="logo" src="imgs/logo.png" alt="logo">
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">INÍCIO</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#sevicos" id="servicos">SERVIÇOS </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#sobre">SOBRE</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contato">CONTATO</a>
+        </li>
+      </ul>
+    
+    </header>
+  
+  
 
   <div id="carrosel">
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
@@ -40,12 +39,12 @@
       <div class="carousel-inner">
 
         <div class="carousel-item active">
-          <img src="imgs/carrocel2.jpg" class="d-block w-100" width="100" height="650" alt="...">
+          <img src="imgs/carrocel2.jpg" class="d-block w-100" width="auto" height="auto"  alt="...">
 
         </div>
 
         <div class="carousel-item">
-          <img src="imgs/carrocel10.jpg" width="100" height="650" class="d-block w-100" alt="...">
+          <img src="imgs/carrocel2.jpg" width="auto" height="auto" class="d-block w-100" alt="...">
         </div>
 
       </div>
@@ -60,7 +59,10 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
+<!-- rolagem de tela -->
+    <section id="sevicos"></section>
   </div>
+
   <div id="painel">
   </div>
   <main>
@@ -68,35 +70,26 @@
     <h1 id="consultas">AGENDE SUAS CONSULTAS</h1>
 
     <div class="container">
-
-      <!-- primeira parte de cards -->
-
-
-
-
+<!-- cards -->
 
       <div id="" class="row">
-
         <div class="col">
-          <a class="card1" href="vacinas.html">
+          <a class="card1" href="card-vacinas.html">
             <div class="card">
-              <img src="imgs/0118-vacinacao-covid19.jpeg" class="card-img-top" alt="...">
+              <img src="imgs/vacina.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">VACINAÇÕES</h5>
                 <p class="card-text">Profissionais competentes pronto para cuidar de você e da sua familia.</p>
 
-
               </div>
             </div>
           </a>
-
-
         </div>
 
         <div class="col">
-          <a class="card1" href="cadastrogripe.html">
+          <a class="card1" href="card-exames.html">
             <div class="card">
-              <img src="imgs/vacina2.jpg" class="card-img-top" alt="...">
+              <img src="imgs/exames .jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">EXAMES</h5>
                 <p class="card-text">Profissionais competentes pronto para cuidar de você e da sua familia.</p>
@@ -104,14 +97,12 @@
               </div>
             </div>
           </a>
-
-
         </div>
 
         <div class="col">
-          <a class="card1" href="dosereforco.html">
+          <a class="card1" href="card-medicos.html">
             <div class="card">
-              <img src="imgs/ad5f0aaf-f2af-4a4e-adcb-8e9479392f1e.jpeg" class="card-img-top" alt="...">
+              <img src="imgs/medico2.jpeg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">MÉDICOS</h5>
                 <p class="card-text">Profissionais competentes pronto para cuidar de você e da sua familia.</p>
@@ -119,10 +110,9 @@
               </div>
             </div>
           </a>
-
-
         </div>
-
+<!-- rolagem de tela -->
+        <section id="sobre"></section>
       </div>
 
     </div>
@@ -130,12 +120,12 @@
     <br>
     <br>
     <br>
-    <div id="solucao">
 
-
-      <div id="sobrenos" class="col">
-
+<!-- sobre nos -->
+    <div id="painel-sobre">
+      <div id="sobre-nos" class="col">
         <h3>Sobre nós</h3>
+
         <p>+SAÚDE é um portal especializado , que tem como objetivo ajudar nossos pacientes agendarem suas consultas sem
           sair de casa. </p>
 
@@ -147,8 +137,6 @@
           possimus minus harum.</p>
 
         <p>você pode agendar suas consultas em qualquer lugar a qualquer momento </p>
-
-
 
       </div>
 
@@ -162,6 +150,7 @@
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
             aria-label="Slide 3"></button>
         </div>
+
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="imgs/carrocel2.jpg" class="d-block w-100" alt="...">
@@ -170,6 +159,7 @@
               <p>Some representative placeholder content for the first slide.</p>
             </div>
           </div>
+
           <div class="carousel-item">
             <img src="imgs/carrocel2.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
@@ -177,6 +167,7 @@
               <p>Some representative placeholder content for the second slide.</p>
             </div>
           </div>
+
           <div class="carousel-item">
             <img src="imgs/carrocel2.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
@@ -184,7 +175,9 @@
               <p>Some representative placeholder content for the third slide.</p>
             </div>
           </div>
+
         </div>
+
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
           data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -197,43 +190,42 @@
         </button>
 
       </div>
-
-
     </div>
-
-
-
-
-
-
+     
+<!-- prolagem de tela -->
+    <section id="contato"></section>
+<!-- rodape -->
     <footer id="rodape" class="row">
-      <p class="listinha"></p>
-      <div id="logorodape">
-        <img src="imgs/1665007987988.png" alt="">
 
+      <p class="listinha"></p>
+      
+      <div id="logo-rodape">
+        <img src="imgs/logo-pequena.png" alt="">
       </div>
 
       <div class="col">
-        <h2 class="h2rodape">TELL</h2>
+        <h2 class="h2-rodape">TELL</h2>
         <p>(81) 3432-4343</p>
       </div>
 
       <div class="col">
-        <H2 class="h2rodape">ENDEREÇO</H2>
+        <H2 class="h2-rodape">ENDEREÇO</H2>
         <p> BR-101 Norte, Km 43,6 (ao lado da Unilever, Igarassu - PE</p>
       </div>
 
-
-
       <div class="col">
-        <h2 class="h2rodape">REDES-SOCIAIS</h2>
+
+        <h2 class="h2-rodape">REDES-SOCIAIS</h2>
+
         <p>
-          <a href="https://www.instagram.com/joao.sous4_/ " target="_blank"><img src="imgs/insta.png" alt=""
+          <a href="https://www.instagram.com/joao.sous4_/ " target="_blank"><img src="imgs/instagram.png" alt=""
               class="insta"></a>
-          <a href=""><img src="imgs/Facebook.webp" alt="" class="redeSociais"></a>
-          <a href=""><img src="imgs/Twitter.png" alt="" class="redeSociais"></a>
+          <a href=""><img src="imgs/Facebook.webp" alt="" class="rede-Sociais"></a>
+          <a href=""><img src="imgs/Twitter.png" alt="" class="rede-Sociais"></a>
         </p>
+
       </div>
+      
     </footer>
   </main>
 
@@ -248,5 +240,4 @@
     crossorigin="anonymous"></script>
 
 </body>
-
 </html>
