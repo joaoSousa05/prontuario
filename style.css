@@ -122,10 +122,10 @@ nav {
 
 /*carrocel de imagens */
 #carrosel {
-  
   max-width: 80%;
   margin: auto;
   margin-bottom: 150px;
+  min-width: 375px;
 }
 
 
