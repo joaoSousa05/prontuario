@@ -29,7 +29,7 @@ scroll-behavior:smooth ;
 }
 
 .logo {
-  height: 55px;
+  height: 45px;
 }
 header{
 background-color: white;
@@ -163,6 +163,7 @@ main {
   width: 280px;
 }
 
+
 .card-title {
   font-size: 25px;
 }
@@ -198,18 +199,14 @@ p {
 }
 
 #carouselExampleCaptions {
+  margin: auto;
   display: flex;
   position: relative;
-  margin-bottom: 100px;
   max-width: 1000px;
   min-height: 400px;
 }
 
-#sobre-nos {
-  margin: auto;
-  float: right;
-  width: 500px;
-}
+
 
 
 #sobre-nos>h3 {
