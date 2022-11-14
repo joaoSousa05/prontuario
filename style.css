@@ -17,6 +17,7 @@ scroll-behavior:smooth ;
 
 /*cabeçario*/
 .aa {
+  transition: 0.4s;
   font-size: 20px;
   color: rgb(0, 0, 0);
   text-decoration: none;
@@ -24,8 +25,9 @@ scroll-behavior:smooth ;
 }
 
 .aa:hover {
-  color: black;
-  text-decoration:underline;
+  opacity: 0.4;
+  color: rgb(45, 179, 212);
+  
 }
 
 .logo {
@@ -46,6 +48,7 @@ nav {
 
 
 .nav-list {
+ 
   list-style: none;
   display: flex;
 }
@@ -122,7 +125,7 @@ nav {
 
 /*carrocel de imagens */
 #carrosel {
-  max-width: 80%;
+  max-width: 85%;
   margin: auto;
   margin-bottom: 150px;
   min-width: 375px;
@@ -159,10 +162,17 @@ main {
 .card {
   border: 10px solid rgb(207 22 22 / 13%);
   margin: auto;
-  height: 400px;
+  height: 450px;
   width: 280px;
 }
-
+@media (max-width: 600px) {
+  .card {
+    border: 10px solid rgb(207 22 22 / 13%);
+    margin: auto;
+    height: 400px;
+    width: 210px;
+  }
+  }
 
 .card-title {
   font-size: 25px;
