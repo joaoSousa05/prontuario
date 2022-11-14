@@ -135,7 +135,15 @@ nav {
 .carousel-inner {
   width: 100%;
 }
-
+@media (max-width: 1000px) {
+  #carrosel {
+    max-width: 100%;
+    margin: auto;
+    margin-bottom: 150px;
+    
+  }
+  
+  }
 /*cards*/
 main {
   padding-top: 50px;
