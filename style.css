@@ -264,9 +264,8 @@ p {
 
 /*rodape*/
 footer {
-  
+
   height: 300px;
- 
   background-image: linear-gradient(to right, #011C3A , #175a80);
 }
 
@@ -307,7 +306,9 @@ text-align: center;
   margin-top: 60px;
   height: 55px;
 }
-
+r1{
+ display: inline-flex;
+}
 #voltar>a>img{
 margin-right: 30px;
 margin-top:130px ;
